@@ -1,0 +1,29 @@
+{
+  "name": "modulesProject",
+  "version": "1.0.0",
+  "description": "This is a employee project with using webpack,babel,webpack-dev-server and Es6 Modules",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --output-public-path=/bundles/  --mode development --open chrome --hot",
+    "build": "webpack --progress",
+    "api": "json-server --watch fake-api/employee.json\n"
+  },
+  "keywords": [
+    "employee",
+    "project"
+  ],
+  "author": "remidosol <remidosol@serverigaram.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.0.4",
+    "json-server": "^0.16.1",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
