@@ -35,12 +35,6 @@ I've tried to carry out GET data, POST data, PUT data and DELETE data simultaneo
          "id": 3
        },
        {
-         "name": "Mustafa SARI",
-         "department": "Project Manager",
-         "salary": "5000",
-         "id": 4
-       },
-       {
          "name": "Küfran İcazcı",
          "department": "Sad Story",
          "salary": "4000",
